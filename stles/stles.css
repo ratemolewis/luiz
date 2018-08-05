@@ -1,0 +1,89 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Container holding the image and the text */
+/* .img {
+    float: right;
+   width: 180px;
+   height:100px;
+} */
+.photo {
+
+  width: 180px;
+  height:180px;
+    float: right;
+}
+
+.colu{
+    width: 350px;
+    float: right;
+  }
+
+.text-block {
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   background-color: black;
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.tuna{
+  color: red;
+  font-size: 12px;
+  padding: 2px;
+  margin: 2px;
+}
+p.tuna {
+  font-size: 12px;
+  color:teal;
+}
+.text-box{
+  padding: 6px;
+ margin: 20px;
+}
+
+.colu h3 {
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
